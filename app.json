@@ -6,6 +6,12 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#6200EE"
+    },
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -36,7 +42,8 @@
         "android.permission.WRITE_EXTERNAL_STORAGE",
         "android.permission.USE_BIOMETRIC",
         "android.permission.USE_FINGERPRINT"
-      ]
+      ],
+      "edgeToEdgeEnabled": true
     },
     "web": {
       "favicon": "./assets/favicon.png",
